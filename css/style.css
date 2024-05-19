@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+h1{
+    color:orange;
+}
+h2{
+    color: red;
+}
+p{
+    text-align: center;
+    justify-content: space-around;
+}
+a{
+    color: whitesmoke;
+}
