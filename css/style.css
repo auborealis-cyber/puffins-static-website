@@ -3,14 +3,40 @@ body{
 }
 h1{
     color:orange;
+    text-align: center;
 }
 h2{
     color: red;
 }
+h4{
+    color: aliceblue;
+}
 p{
+    display: center;
     text-align: center;
-    justify-content: space-around;
+    background-color: whitesmoke;
+    max-height: fit-content;
+    max-width: 350px;
+   box-shadow: -5px 4px 35px rgba(255, 255, 255, 0.916);
 }
 a{
+    color: orangered;
+    text-decoration: none;
+}
+a:hover{
     color: whitesmoke;
+    text-decoration: underline;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.email{
+    color: orange;
+    text-decoration: underline;
+}
+.page-links{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
