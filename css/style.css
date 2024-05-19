@@ -27,9 +27,16 @@ a:hover{
     color: whitesmoke;
     text-decoration: underline;
 }
+img:hover{
+    transform: scale(1.4);
+}
 .center{
     display: flex;
     justify-content: center;
+}
+.center:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
 .email{
     color: orange;
